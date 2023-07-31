@@ -1,0 +1,100 @@
+.scroll-nav {
+  display: flex;
+  background-color: #ff0000;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+  z-index: 999;
+}
+
+.scroll-nav.visible {
+  transform: translateY(0);
+}
+
+.kotak-menu-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.kotak-menu-icon i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.first-part {
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+  margin-right: 1rem;
+}
+.search-icon p {
+  margin-bottom: 0;
+}
+
+.search-icon i {
+  font-size: 1.5rem;
+}
+
+.scrollnav-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 10px;
+  background-color: #003366;
+  height: 80px;
+  width: 34%;
+  margin-left: auto;
+}
+
+.nav-btn img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.search-modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  z-index: 9999;
+}
+
+
+@media (max-width: 1173px) {
+  #check1:checked ~ .ul-scroll {
+    left: 0;
+  }
+  .ul-scroll {
+    position: fixed;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    z-index: 999;
+    padding: 0;
+    left: -150%;
+    overflow-y: scroll;
+    text-align: center;
+    width: 20rem;
+    transition: all 0.8s;
+  }
+  .responsive-section {
+    display: block;
+  }
+}

@@ -1,0 +1,49 @@
+.collapsed {
+  color: #036;
+}
+.footer-background,
+.footer-responsive-section {
+  background-color: #fff !important;
+}
+.res-touch {
+  background-color: #eaeaea !important;
+  margin-bottom: 1rem;
+  padding: 10px 20px !important;
+  margin-bottom: 10px;
+}
+
+.accordion-item .accordion-button {
+  background-color: #eaeaea !important;
+  font-size: 20px;
+}
+.touch i {
+  color: #333;
+}
+
+.slide li {
+  list-style: none;
+}
+
+.connect {
+  margin: 2rem;
+}
+
+.flex-connection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-connection i {
+  font-size: 2rem;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+  border: none;
+}
+
+@media screen and (min-width: 860px) {
+  .footer-background {
+    display: none;
+  }
+}

@@ -1,0 +1,102 @@
+.connection-links i {
+  font-size: 2rem;
+  color: #929292;
+  transition: color 0.3s ease;
+}
+.connection-links .bxl-facebook:hover {
+  color: #3b5998;
+}
+
+.connection-links .bxl-twitter:hover {
+  color: #1da1f2;
+}
+
+.connection-links .bxl-youtube:hover {
+  color: #ff0000;
+}
+
+.connection-links .bxl-linkedin-square:hover {
+  color: #0e76a8;
+}
+
+.installation-links p {
+  font-size: 13px;
+  font-weight: 600;
+}
+.kotak-dropdown {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.kotak-list {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  padding: 5px 3px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+}
+
+.kotak-list i {
+  font-size: 1.5rem;
+}
+
+.dropdown-content1 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  display: block;
+  background-color: #fff;
+  padding: 5px 10px;
+  top: auto;
+  margin-bottom: 2px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-clip: padding-box;
+}
+
+.dropdown-content p {
+  margin: 0;
+  padding: 3px 20px;
+  font-size: 14px;
+  clear: both;
+  font-weight: 400;
+  color: #333;
+}
+
+.footer3-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 5rem;
+  margin: 0 5%;
+}
+
+.installation-img {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.footer-logo {
+  display: flex;
+  width: 10rem;
+  gap: 10px;
+  height: 3rem;
+}
+.footer-end {
+  background-color: #e0e0e0;
+}
+.footer-end p {
+  font-size: 12px;
+  margin: 0 10%;
+  padding: 15px;
+}
+
+@media screen and (max-width: 860px) {
+  .footer3-content {
+    display: none;
+  }
+}

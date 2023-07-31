@@ -1,0 +1,306 @@
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-23" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Channel Red *New*</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-23" /> 
+<ol className="slide">
+ <li>Mobile Banking</li>
+ <li>Net Banking</li>
+ <li>Manage your account</li>
+ <li>Transfer money</li>
+ <li>Recharge / Make payments</li>
+ <li>Credit Cards</li>
+ <li>Debit Cards</li>
+ <li>Loans</li>
+ <li>National Pension Scheme</li>
+ <li>Deposits</li>
+        </ol>
+</section>
+      
+
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-24" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Popular Products</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-24" /> 
+<ol className="slide">
+ <li>Home Loan</li>
+ <li>Personal Loan</li>
+ <li>Savings Account</li>
+ <li>Current Account</li>
+ <li>Credit Cards</li>
+ <li>Mutual Funds</li>
+ <li>National Pension Scheme (NPS)</li>
+ <li>Business Loan</li>
+ <li>Zero Balance Savings Account</li>
+ <li>Life Insurance</li>
+ <li>Fixed Deposit</li>
+ <li>Recurring Deposit</li>
+ <li>Loan against property</li>
+        </ol>
+</section>
+
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-25" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Help Center</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-25" /> 
+<ol className="slide">
+ <li>Account</li>
+ <li>Issue with Transactions</li>
+ <li>Savings Account</li>
+ <li>Credit Card</li>
+ <li>811 Account</li>
+ <li>Fund Transfer, Bill Payment & Recharge</li>
+ <li>Loans</li>
+ <li>FASTag</li>
+ <li>Fixed Deposit (FD) and Recurring Deposit (RD)</li>
+ <li>NRI Services</li>
+ <li>My Profile - Mobile Number, Aadhaar, Email ID & Address</li>
+ <li>Forex</li>
+ <li>Insurance (Premium payments, Tax benefit etc )</li>
+ <li>Investments (Scheme Issues, Dividend related)</li>
+ <li>Working Capital</li>
+ <li>KayMall - Flights, Hotels, Bus, Trains, Shopping</li>
+        </ol>
+</section>
+
+<div className="connect">
+
+<div className="installation-links">
+            <p>
+Install Kotak - 811 & Mobile Banking App</p>
+<div className="installation-img">
+
+<img src="https://www.kotak.com/content/dam/Kotak/google-play.png" alt="google play" />
+<img src="https://www.kotak.com/content/dam/Kotak/apple-store.png" alt="App Store" />
+</div>
+        </div>
+
+        <div className="flex-connection">
+        <div className="connection-links-responsive">
+            <p>Connect With Us</p>
+            <i class='bx bxl-facebook' style={{color : "#4762ac"}} ></i>        
+             <i class='bx bxl-twitter' style={{color : "#189df5"}} ></i>
+            <i class='bx bxl-youtube' style={{color : "#e5141d"}} ></i>
+            <i class='bx bxl-linkedin-square' style={{color : "#0074b7"}}></i>
+
+        </div>
+
+        <i class='bx bx-phone-call' style={{borderLeft : "1px solid #666" , paddingLeft : ".8rem"}}></i>
+        </div>
+</div>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-26" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>About us</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-26" /> 
+<ol className="slide">
+ <li>Our Businesses</li>
+ <li>Media Centre</li>
+ <li>Sustainability</li>
+ <li>Careers</li>
+ <li>DIFC Branch</li>
+ <li>GIFT Branch</li>
+ <li>KMFSL</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-27" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Investor Relations</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-27" /> 
+<ol className="slide">
+ <li>Overview</li>
+ <li>Financials</li>
+ <li>Governance</li>
+ <li>Investor Info</li>
+ <li>Disclosures Regulation 46 and 62</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-28" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Customer Service</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-28" /> 
+<ol className="slide">
+ <li>Important Information</li>
+ <li>Write to us</li>
+ <li>Grievance Redressal</li>
+ <li>Report Fraud / Raise Dispute</li>
+ <li>Download Forms</li>
+ <li>Service Requests</li>
+ <li>Track Application Status</li>
+ <li>Tips on Safe Banking</li>
+ <li>Doorstep Banking Service</li>
+ <li>Contact Us for Depository Services</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-29" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Aadhaar Services</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-29" /> 
+<ol className="slide">
+ <li>Link your Aadhaar</li>
+ <li>Aadhaar Enrollment Center</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-30" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Calculators & Tools</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-30" /> 
+<ol className="slide">
+ <li>Personal Loan EMI Calculator</li>
+ <li>Car Loan EMI Calculator</li>
+ <li>Home Loan EMI Calculator</li>
+ <li>Fixed Deposit Calculator</li>
+ <li>Recurring Deposit Calculator</li>
+ <li>Gold Loan Calculator</li>
+ <li>Life Insurance Calculator</li>
+ <li>Business Loan EMI Calculator</li>
+ <li>Retirement Calculator</li>
+ <li>Simple Interest Calculator</li>
+ <li>Compound Interest Calculator</li>
+ <li>Goal Planner</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-31" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Digital Banking</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-31" /> 
+<ol className="slide">
+ <li>Ways to Bank</li>
+ <li>Insta Services</li>
+ <li>Business & Fintech</li>
+ <li>Open Banking</li>
+
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-32" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Self Help</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-32" /> 
+<ol className="slide">
+ <li>Help Center</li>
+ <li>Chat with Keya</li>
+
+
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-33" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Trending Products</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-33" /> 
+<ol className="slide">
+ <li>Credit Cards</li>
+ <li>811 Digital Savings Bank Account</li>
+ <li>Digi Personal Loan</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-34" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Rates & fees</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-34" /> 
+<ol className="slide">
+ <li>Interest Rates</li>
+ <li>Fees & Charges (GSFC)</li>
+ <li>Goods & Services Tax (GST)</li>
+
+        </ol>
+</section>
+
+
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-35" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title' style={{color : "red"}}>Financial Inclusion</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+</section>
+
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-35" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title' style={{color : "red"}}>About Merger</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+</section>
+
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-36" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Erstwhile ING Vysya</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-36" /> 
+<ol className="slide">
+ <li>Savings Account</li>
+ <li>Current Account</li>
+ <li>Debit Card</li>
+ <li>Institutional Accounts</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-37" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Others</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-37" /> 
+<ol className="slide">
+ <li>Credit Card T&C</li>
+ <li>Co Brand Credit Card</li>
+ <li>Public Notice</li>
+ <li>USA Patriot Act Certification</li>
+ <li>Subscriptions/ Recurring Payments</li>
+ <li>Wolfsberg AML Questionnaire</li>
+ <li>Knowledge Centre</li>
+ <li>Auction Cum Sale Notice</li>
+ <li>Asset Classification Norms</li>
+ <li>Recovery Agent</li>
+
+        </ol>
+</section>
+<section className="responsive-section footer-responsive-section">
+      <label htmlFor="touch-38" className="touch res-touch" onClick={toggleDropdown}>
+  <span className='Dropdown-title'>Kotak Group Companies</span>
+  {isOpen ? <i class='bx bxs-chevron-up' ></i> : <i class='bx bxs-chevron-down' ></i>}
+</label>
+<input type="checkbox" id="touch-38" /> 
+<ol className="slide">
+ <li>Kotak Asset Management</li>
+ <li>Kotak General Insurance</li>
+ <li>Kotak Institutional Equities</li>
+ <li>Kotak International Business</li>
+ <li>Kotak Investment Advisors</li>
+ <li>Kotak Investment Banking</li>
+ <li>Kotak Life Insurance</li>
+ <li>Kotak Mahindra Investments</li>
+ <li>Kotak Mahindra Prime</li>
+ <li>Kotak Securities Limited</li>
+
+        </ol>
+</section>

@@ -1,0 +1,19 @@
+.back-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 22px;
+  background-color: #fff;
+  margin: 15px 0;
+  height: 4.5rem;
+  padding: 0 3rem;
+}
+
+.back-to-top p {
+  align-items: center;
+}
+
+.back-to-top p a {
+  text-decoration: none;
+  color: #333;
+}

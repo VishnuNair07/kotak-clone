@@ -1,0 +1,40 @@
+.main-footer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 3rem;
+}
+
+.column ul {
+  text-align: start;
+  cursor: pointer;
+  font-size: 14px;
+}
+.column ul p {
+  margin: 0 0 10px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #000;
+}
+.column ul li {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.footerSpace {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .main-footer {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem;
+    grid-row-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .main-footer {
+    display: none !important;
+  }
+}

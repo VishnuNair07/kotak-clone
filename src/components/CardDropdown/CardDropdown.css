@@ -1,0 +1,103 @@
+#touch,
+#touch-1,
+#touch-2,
+#touch-3,
+#touch-4,
+#touch-5,
+#touch-6,
+#touch-7,
+#touch-8,
+#touch-9,
+#touch-10,
+#touch-12,
+#touch-13,
+#touch-14,
+#touch-15,
+#touch-16,
+#touch-17,
+#touch-18,
+#touch-19,
+#touch-20,
+#touch-21,
+#touch-22,
+#touch2,
+#touch3 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+}
+
+#touch:checked + .slide,
+#touch-1:checked + .slide,
+#touch-2:checked + .slide,
+#touch-3:checked + .slide,
+#touch-4:checked + .slide,
+#touch-5:checked + .slide,
+#touch-6:checked + .slide,
+#touch-7:checked + .slide,
+#touch-8:checked + .slide,
+#touch-9:checked + .slide,
+#touch-10:checked + .slide,
+#touch-12:checked + .slide,
+#touch-13:checked + .slide,
+#touch-14:checked + .slide,
+#touch-15:checked + .slide,
+#touch-16:checked + .slide,
+#touch-17:checked + .slide,
+#touch-18:checked + .slide,
+#touch-19:checked + .slide,
+#touch-20:checked + .slide,
+#touch-21:checked + .slide,
+#touch-22:checked + .slide,
+#touch2:checked + .slide,
+#touch3:checked + .slide {
+  height: auto;
+  text-align: left;
+}
+
+.card-touch {
+  color: #333;
+  display: flex;
+  cursor: pointer;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-spacing {
+  display: grid;
+  grid-template-columns: repeat(2, 12rem);
+}
+
+.card-dropdown img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.card-dropdown {
+  display: flex;
+  width: 100%;
+}
+
+.li-spacing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-card {
+  display: flex;
+  flex-direction: column;
+}
+.card-sizing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-title {
+  background-color: #666666 !important;
+}
+.card-title h3 {
+  padding: 20px 30px;
+  color: #fff;
+}

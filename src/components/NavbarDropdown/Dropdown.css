@@ -1,0 +1,272 @@
+.slide li a {
+  text-decoration: none;
+  color: #2d2f31;
+  float: left;
+}
+
+section {
+  display: none;
+}
+.responsive-section {
+  width: 100%;
+  background: #d9d9d9;
+  /* margin: 40px auto; */
+}
+
+.touch {
+  padding: 25px;
+  background: #fff;
+  color: red;
+  text-align: left;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.sub-touch {
+  padding: 0;
+  background: #fff;
+  color: #333;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.touch.open::after {
+  transform: rotate(45deg);
+}
+
+.slide {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 0;
+  z-index: 999;
+  font-size: 14px;
+  padding: 0 20px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: height 0.4s ease;
+}
+
+.slide li {
+  padding: 15px 0;
+  background-color: #fff;
+}
+
+.sub-slide li {
+  padding: 30px;
+  background-color: #fff;
+}
+.slide li a {
+  padding: 0px !important;
+  margin: 0 !important;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+#touch,
+#touch-1,
+#touch-2,
+#touch-3,
+#touch-4,
+#touch-5,
+#touch-6,
+#touch-7,
+#touch-8,
+#touch-9,
+#touch-10,
+#touch-12,
+#touch-13,
+#touch-14,
+#touch-15,
+#touch-16,
+#touch-17,
+#touch-18,
+#touch-19,
+#touch2,
+#touch3 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+}
+
+#touch:checked + .slide,
+#touch-1:checked + .slide,
+#touch-2:checked + .slide,
+#touch-3:checked + .slide,
+#touch-4:checked + .slide,
+#touch-5:checked + .slide,
+#touch-6:checked + .slide,
+#touch-7:checked + .slide,
+#touch-8:checked + .slide,
+#touch-9:checked + .slide,
+#touch-10:checked + .slide,
+#touch-12:checked + .slide,
+#touch-13:checked + .slide,
+#touch-14:checked + .slide,
+#touch-15:checked + .slide,
+#touch-16:checked + .slide,
+#touch-17:checked + .slide,
+#touch-18:checked + .slide,
+#touch-19:checked + .slide,
+#touch2:checked + .slide,
+#touch3:checked + .slide {
+  height: auto;
+  text-align: left;
+}
+#check:checked ~ .ul-scroll {
+  left: 0;
+}
+.ul-scroll {
+  position: fixed;
+  height: 100vh;
+  background: #fff;
+  top: 80px;
+  z-index: 999;
+  padding: 0;
+  left: -100%;
+  overflow-y: scroll;
+  text-align: center;
+  width: 20rem;
+  transition: all 0.8s;
+} 
+
+
+.responsive-section {
+  display: block;
+}
+
+@media (max-width: 1173px) {
+  .responsive-section {
+    display: block;
+  }
+  nav {
+    height: 80px;
+  }
+
+  .upper-nav {
+    display: none;
+  }
+
+  label.logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 120px;
+  }
+  label.logo i {
+    margin-right: 1rem;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-icon {
+    background-color: #003366;
+    color: white;
+    /* height: 80px; */
+    display: flex;
+    align-items: center;
+  }
+  .logo-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+  }
+
+  .nav-icon i {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #425c79;
+  }
+  .bx {
+    line-height: unset;
+  }
+  .checkbtn {
+    display: block;
+  }
+  .dropdown .dropbtn {
+    display: none;
+  }
+  #check:checked ~ .ul-scroll {
+    left: 0;
+  }
+  .ul-scroll {
+    position: fixed;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    z-index: 999;
+    padding: 0;
+    left: -100%;
+    overflow-y: scroll;
+    text-align: center;
+    width: 20rem;
+    transition: all 0.8s;
+  } 
+  .responsive-section {
+    display: block;
+  }
+
+}
+
+@media (max-width: 858px) {
+  .dropdown {
+    display: none;
+  }
+ 
+
+  .lower-nav {
+    position: fixed;
+    z-index: 999;
+  }
+
+  .upper-li ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .upper-li ul li a {
+    font-size: 20px;
+  }
+ 
+
+  .upper-li a:hover,
+  .upper-li a.active {
+    background: none;
+    color: #0082e6;
+  }
+ 
+}
+
+@media screen and (max-width: 378px) {
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  .nav-icon i {
+    padding: 0.2rem;
+    font-size: 1.2rem;
+  }
+  label.logo i {
+    margin-right: 10px;
+  }
+  label.logo {
+    display: flex;
+    align-items: center;
+    margin: -24px;
+    width: 100px;
+  }
+}
