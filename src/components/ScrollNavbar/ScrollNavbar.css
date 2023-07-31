@@ -59,10 +59,17 @@
 }
 
 .nav-btn img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
+
+
+.nav-btn img:hover {
+  opacity: 0.5;
+  transition: opacity .5s linear;
+}
+
 
 .search-modal1 {
   position: fixed;
@@ -76,12 +83,11 @@
   z-index: 9999;
 }
 
-
 @media (max-width: 1173px) {
-  #check1:checked ~ .ul-scroll {
+  #check1:checked ~ .mobile-scroll {
     left: 0;
   }
-  .ul-scroll {
+  .mobile-scroll {
     position: fixed;
     height: 100vh;
     background: #fff;
@@ -94,6 +100,7 @@
     width: 20rem;
     transition: all 0.8s;
   }
+
   .responsive-section {
     display: block;
   }

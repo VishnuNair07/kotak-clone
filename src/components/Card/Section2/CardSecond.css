@@ -1,7 +1,7 @@
 .section2-content {
   display: grid;
   grid-template-columns: 66% 1fr;
-  margin: 4rem 6rem;
+  margin: 3rem 5rem;
   gap: 1.5rem;
 }
 
@@ -79,8 +79,8 @@
 @media screen and (max-width: 1024px) {
   .section2-content {
     grid-template-columns: 1fr;
-    gap: 3rem;
-    margin: 4rem 1rem;
+    /* gap: 3rem; */
+    margin: 3rem 2rem;
   }
   .main-img img {
     height: 100%;
@@ -107,6 +107,29 @@
     height: auto;
   }
   .section2-content {
-    gap: 5rem;
+    gap: 6rem;
+  }
+  .stories {
+    margin-top: 0;
+  }
+
+  .main-img img {
+    height: 60%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .stories {
+    margin-top: 1rem;
+  }
+
+  .main-img img {
+    height: 50%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
   }
 }

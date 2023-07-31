@@ -3,7 +3,6 @@ import "./BackOnTop.css";
 import Footer1 from "../Footer-1/Footer1";
 
 const BackOnTop = () => {
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -13,8 +12,8 @@ const BackOnTop = () => {
   return (
     <div>
       <div className="back-to-top">
-        <p>
-        <a href="#top" onClick={scrollToTop}>
+        <p style={{margin : "0"}}>
+          <a href="#top" onClick={scrollToTop}>
             Back to Top <i class="bx bxs-chevron-up"></i>
           </a>
         </p>

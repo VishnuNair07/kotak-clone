@@ -59,7 +59,6 @@
   color: #333;
   display: flex;
   cursor: pointer;
-
   align-items: center;
   justify-content: space-between;
 }
@@ -75,7 +74,8 @@
 }
 
 .card-dropdown {
-  display: flex;
+  display: grid;
+  grid-template-columns: 22% 1fr;
   width: 100%;
 }
 

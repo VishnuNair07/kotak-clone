@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 4rem auto;
+  margin: 3rem auto;
   gap: 2rem;
   flex-wrap: wrap;
   width: unset;
@@ -76,7 +76,7 @@
 @media screen and (max-width: 992px) {
   .container {
     grid-template-columns: 1fr;
-    margin: 4rem auto;
+    margin: 3rem auto;
   }
 
   .section-card {
@@ -116,6 +116,6 @@
     width: 100%;
   }
   .container {
-    margin: 4rem auto;
+    margin: 3rem auto;
   }
 }

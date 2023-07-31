@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./CardDropdown.css";
 
 const Dropdown = () => {
-
   // To toggle the dropdown
   const [isOpen, setIsOpen] = useState(false);
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./ScrollNavbar.css";
-// import Dropdown from '../NavbarDropdown/Dropdown';
+import chatbotImage from '../../assets/chatbot-icon.png'
 
 const ScrollNavbar = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -59,7 +59,7 @@ const ScrollNavbar = () => {
         <div className="scrollnav-right">
           <div className="nav-btn">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/219/219983.png?w=740&t=st=1688030514~exp=1688031114~hmac=0ed07c099478076b7e47be5bdf8a09110851919c922092c3986cb01d6de7a12a"
+              src={chatbotImage}
               alt="profile"
             />
             <button className="button-23">
